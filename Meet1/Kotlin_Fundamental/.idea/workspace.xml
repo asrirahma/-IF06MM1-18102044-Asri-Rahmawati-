@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4749bbef-b895-4723-8e38-6d794a8edeb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/asri/Array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/Characters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/DataType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/ElvisOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/Expressions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/ForLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/ForLoop2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/Functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/HelloWorld.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/StringTemplate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/WhenExpressions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/WhileExpressions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/asri/WhileExpressions2.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1j6QFSaFMmvqHXlazOtPaf9UjWv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Kotlin.ForLoop2Kt">
+    <configuration name="ForLoop2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Fundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.asri.ForLoop2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Fundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.asri.ForLoopKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenExpressionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Fundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.asri.WhenExpressionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileExpressions2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Fundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.asri.WhileExpressions2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileExpressionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_Fundamental" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.asri.WhileExpressionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ForLoop2Kt" />
+        <item itemvalue="Kotlin.ForLoopKt" />
+        <item itemvalue="Kotlin.WhileExpressions2Kt" />
+        <item itemvalue="Kotlin.WhileExpressionsKt" />
+        <item itemvalue="Kotlin.WhenExpressionsKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4749bbef-b895-4723-8e38-6d794a8edeb8" name="Default Changelist" comment="" />
+      <created>1603121957410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603121957410</updated>
+      <workItem from="1603121963836" duration="1421000" />
+      <workItem from="1603123441961" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="595" height="169" key="GridCell.Tab.0.bottom" timestamp="1603123385657">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="595" height="169" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1603123385657" />
+    <state width="595" height="169" key="GridCell.Tab.0.center" timestamp="1603123385656">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="595" height="169" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1603123385656" />
+    <state width="595" height="169" key="GridCell.Tab.0.left" timestamp="1603123385656">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="595" height="169" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1603123385656" />
+    <state width="595" height="169" key="GridCell.Tab.0.right" timestamp="1603123385657">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="595" height="169" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1603123385657" />
+    <state x="439" y="117" key="refactoring.ChangeSignatureDialog" timestamp="1603123095507">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="439" y="117" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1603123095507" />
+  </component>
+</project>
