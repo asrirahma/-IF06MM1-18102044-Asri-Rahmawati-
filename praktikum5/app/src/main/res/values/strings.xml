@@ -2,4 +2,8 @@
     <string name="app_name">IFPR</string>
     <string name="hint_input_prodi">Input Prodi</string>
     <string name="btn_prodi">Bawa Data Prodi Ke Activity Lain</string>
+    <string name="btn_call_browser">Panggil ittelkom-pwt.ac.id</string>
+    <string name="btn_call_camera">Panggil Kamera</string>
+    <string name="input_phone_number">Input Nomor Telepon</string>
+    <string name="btn_call_phone">Telepon</string>
 </resources>
