@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IFPR</string>
+    <string name="hint_input_prodi">Input Prodi</string>
+    <string name="btn_prodi">Bawa Data Prodi Ke Activity Lain</string>
+</resources>
