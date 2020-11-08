@@ -47,10 +47,12 @@ class Practice5Activity : AppCompatActivity() {
             intent.data = Uri.parse("http://ittelkom-pwt.ac.id/")
             startActivity(intent)
         }
+
         btnCallCamera.setOnClickListener{
             val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             startActivity(intent)
         }
+
         btnCallPhone.setOnClickListener{
             val phoneNumber = inputPhoneNumber.getText()
             if (phoneNumber.isEmpty()) {
@@ -59,6 +61,11 @@ class Practice5Activity : AppCompatActivity() {
             }
             val intent = Intent(Intent.ACTION_CALL)
             intent.data = Uri.parse("tel:$phoneNumber")
+            startActivity(intent)
+
+        }
+        btnFragment.setOnClickListener{
+            val intent = Intent(this, Practice5ForFragmentActivity::class.java)
             startActivity(intent)
         }
     }
