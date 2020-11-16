@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.asri_18102044.prak6.adapter.CardViewMyDataAdapter
 import com.asri_18102044.prak6.adapter.GridMyDataAdapter
 import com.asri_18102044.prak6.adapter.ListMyDataAdapter
 import kotlinx.android.synthetic.main.activity_main.*
@@ -62,6 +63,12 @@ class MainActivity : AppCompatActivity() {
         rv_mydata.adapter = gridMyDataAdapter
     }
 
+    private fun showRecyclerCardView() {
+        rv_mydata.layoutManager = LinearLayoutManager(this)
+        val cardViewMyDataAdapter = CardViewMyDataAdapter (list)
+        rv_mydata.adapter = cardViewMyDataAdapter
+    }
+
     private fun setMode(selectedMode: Int) {
         when (selectedMode) {
             R.id.action_list -> {
@@ -71,6 +78,7 @@ class MainActivity : AppCompatActivity() {
                 showRecyclerGrid()
             }
             R.id.action_cardview -> {
+                showRecyclerCardView()
             }
         }
     }
