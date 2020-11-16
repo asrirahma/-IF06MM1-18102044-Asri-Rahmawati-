@@ -2,13 +2,16 @@
     <string name="app_name">Prak6</string>
     <string name="name">Name</string>
     <string name="description">Description</string>
+    <string name="tampil_list">Tampil List</string>
+    <string name="tampil_grid">Tampil Grid</string>
+    <string name="tampil_card_view">Tampil Card View</string>
 
     <string-array name="data_name">
         <item>Wisata Pagubugan</item>
         <item>The Village Purwokerto</item>
     </string-array>
     <string-array name="data_description">
- <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
+        <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
 tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada
 di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan Anda. Mulai dari trek
 jogging, outbond, camping ground, sawah pelangi, taman kelinci, berbagai spot foto keren dan juga
