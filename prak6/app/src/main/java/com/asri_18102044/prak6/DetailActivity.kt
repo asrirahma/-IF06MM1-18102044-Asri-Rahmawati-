@@ -1,6 +1,7 @@
 package com.asri_18102044.prak6
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.os.Parcelable
 import com.google.android.material.appbar.CollapsingToolbarLayout
@@ -26,10 +27,7 @@ class DetailActivity : AppCompatActivity() {
         setContentView(R.layout.activity_detail)
         setSupportActionBar(findViewById(R.id.toolbar))
         findViewById<CollapsingToolbarLayout>(R.id.toolbar_layout).title = title
-        findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
+
 
         val myData by getParcelableExtra<MyData>(DetailActivity.EXTRA_MYDATA)
         supportActionBar?.title = myData?.name.toString()
@@ -39,6 +37,12 @@ class DetailActivity : AppCompatActivity() {
             .load(myData?.photo.toString())
             .apply(RequestOptions().override(700, 700))
             .into(iv_detail_photo)
+
+        findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
+            val moveWithObjectIntent = Intent(this, MapsActivity::class.java)
+            moveWithObjectIntent.putExtra(MapsActivity.EXTRA_MYDATA, myData)
+            startActivity(moveWithObjectIntent)
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

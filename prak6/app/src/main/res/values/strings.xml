@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Prak6</string>
+    <string name="app_name">Praktikum6</string>
     <string name="name">Name</string>
     <string name="description">Description</string>
     <string name="tampil_list">Tampil List</string>
@@ -10,7 +10,7 @@
         <item>Wisata Pagubugan</item>
         <item>The Village Purwokerto</item>
         <item>Curug Jenggala</item>
-        <item>Bukit Agaran</item>
+<!--        <item>Bukit Agaran</item>-->
     </string-array>
     <string-array name="data_description">
         <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
@@ -31,16 +31,16 @@ lagi!</item>
 Berada di Banyumas, curug yang masuk di wilayah Baturaden ini terjadi karena pertemuan beberapa sungai. Alhasil, air yang tercurah dari ujung bukit pun melimpah ruah, dan juga mengalir deras.
 Cara menikmatinya? Bisa dengan berada di bebatuan yang tak jauh dari titik jatuhnya air. Dijamin kamu bisa basah kuyup. Tapi ingat, ekstra hati-hati ya!
 Cara lain adalah dengan berada di titik tertentu, yang oleh pihak pengelola memang disiapkan secara khusus. Ada dek kayu berbentuk hati tepat berada di depan curug ini, pas sebagai spot berfoto, apalagi dengan pasangan. Ah, so sweet!</item>
-        <item>Ingin menikmati indahnya Purwokerto dari angle lain? Mampir saja ke Bukit Agaran yang menawarkan pemandangan menakjubkan Purwokerto dari atas!
-Di bukit ini tersedia banyak sekali spot foto yang bisa kamu manfaatkan untuk berfoto ria. Seperti misalnya replika tangan raksasa dan rumah cinta.
-Jika cuaca cerah, kamu bisa menikmati pemandangan cantik Gunung Slamet yang berdiri megah dengan begitu jelas. Suasana akan berubah lebih romantis di malam hari karena pemandangan berubah menjadi cahaya kerlap kerlip lampu Purwokerto dari kejauhan.
-Kamu pun bisa berkemah di bukit ini untuk menyaksikan matahari terbit yang tak kalah menawannya, lho!</item>
+<!--        <item>Ingin menikmati indahnya Purwokerto dari angle lain? Mampir saja ke Bukit Agaran yang menawarkan pemandangan menakjubkan Purwokerto dari atas!-->
+<!--Di bukit ini tersedia banyak sekali spot foto yang bisa kamu manfaatkan untuk berfoto ria. Seperti misalnya replika tangan raksasa dan rumah cinta.-->
+<!--Jika cuaca cerah, kamu bisa menikmati pemandangan cantik Gunung Slamet yang berdiri megah dengan begitu jelas. Suasana akan berubah lebih romantis di malam hari karena pemandangan berubah menjadi cahaya kerlap kerlip lampu Purwokerto dari kejauhan.-->
+<!--Kamu pun bisa berkemah di bukit ini untuk menyaksikan matahari terbit yang tak kalah menawannya, lho!</item>-->
     </string-array>
     <string-array name="data_photo">
         <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
         <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/21-2-by-@The-Village-Purwokerto-740x740.jpg</item>
         <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2020/03/1a-1-by-onyone96.jpg</item>
-        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2020/03/17-1-by-@biilliiaa-@lulu_luyas-@gensis_uye.jpg</item>
+<!--        <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2020/03/17-1-by-@biilliiaa-@lulu_luyas-@gensis_uye.jpg</item>-->
     </string-array>
     <string name="title_activity_detail">ScrollingActivity</string>
     <string name="large_text">
@@ -133,5 +133,16 @@ Kamu pun bisa berkemah di bukit ini untuk menyaksikan matahari terbit yang tak k
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string-array name="data_lat">
+        <item>-7.333797</item>
+        <item>-7.374473</item>
+        <item>-7.309016053058311</item>
+    </string-array>
+    <string-array name="data_lang">
+        <item>109.206959</item>
+        <item>109.240532</item>
+        <item>109.20877769636357</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
