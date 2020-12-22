@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BroadcastReceiver (Pertemuan 8)</string>
+    <string name="check_sms_permission">Check SMS Permission</string>
+    <string name="close">Tutup</string>
+    <string name="this_play">Incoming Message</string>
+    <string name="coming_from">Coming From</string>
+    <string name="incoming_message">Incoming Message</string>
+</resources>
