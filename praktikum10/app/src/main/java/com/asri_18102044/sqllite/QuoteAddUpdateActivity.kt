@@ -85,12 +85,16 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
         if (view.id == R.id.btn_submit) {
             val title = binding.edtTitle.text.toString().trim()
             val description = binding.edtDescription.text.toString().trim()
+            val review = binding.edtReview.text.toString().trim()
+            val duration = binding.edtDuration.text.toString().trim()
             if (title.isEmpty()) {
                 binding.edtTitle.error = "Field can not be blank"
                 return
             }
             quote?.title = title
             quote?.description = description
+            quote?.review = review
+            quote?.duration = duration
             quote?.category = category
             val intent = Intent()
             intent.putExtra(EXTRA_QUOTE, quote)
@@ -98,6 +102,8 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
             val values = ContentValues()
             values.put(DatabaseContract.QuoteColumns.TITLE, title)
             values.put(DatabaseContract.QuoteColumns.DESCRIPTION, description)
+            values.put(DatabaseContract.QuoteColumns.REVIEW, review)
+            values.put(DatabaseContract.QuoteColumns.DURATION, duration)
             values.put(DatabaseContract.QuoteColumns.CATEGORY, category)
             if (isEdit) {
                 val result = quoteHelper.update(quote?.id.toString(),

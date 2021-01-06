@@ -14,6 +14,8 @@ internal class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATA
                 " (${DatabaseContract.QuoteColumns._ID} INTEGER PRIMARY KEY AUTOINCREMENT," +
                 " ${DatabaseContract.QuoteColumns.TITLE} TEXT NOT NULL," +
                 " ${DatabaseContract.QuoteColumns.DESCRIPTION} TEXT NOT NULL," +
+                " ${DatabaseContract.QuoteColumns.REVIEW} TEXT NOT NULL," +
+                " ${DatabaseContract.QuoteColumns.DURATION} TEXT NOT NULL," +
                 " ${DatabaseContract.QuoteColumns.CATEGORY} TEXT NOT NULL," +
                 " ${DatabaseContract.QuoteColumns.DATE} TEXT NOT NULL)"
     }

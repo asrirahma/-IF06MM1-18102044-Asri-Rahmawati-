@@ -9,6 +9,8 @@ internal class DatabaseContract {
             const val _ID = "_id"
             const val TITLE = "title"
             const val DESCRIPTION = "description"
+            const val REVIEW = "review"
+            const val DURATION = "duration"
             const val CATEGORY = "category"
             const val DATE = "date"
         }
