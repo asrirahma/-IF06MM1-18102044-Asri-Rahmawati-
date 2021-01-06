@@ -173,5 +173,7 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
         alertDialog.show()
     }
 
-
+    override fun onBackPressed() {
+        showAlertDialog(ALERT_DIALOG_CLOSE)
+    }
 }
