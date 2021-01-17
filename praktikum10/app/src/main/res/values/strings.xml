@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQL Lite</string>
+    <string name="title">Title</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Delete</string>
+    <string name="duration">Duration</string>
+    <string name="review">Review</string>
+</resources>
